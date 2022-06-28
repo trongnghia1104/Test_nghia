@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include test_nghia *.css
+recursive-include test_nghia *.csv
+recursive-include test_nghia *.html
+recursive-include test_nghia *.ico
+recursive-include test_nghia *.js
+recursive-include test_nghia *.json
+recursive-include test_nghia *.md
+recursive-include test_nghia *.png
+recursive-include test_nghia *.py
+recursive-include test_nghia *.svg
+recursive-include test_nghia *.txt
+recursive-exclude test_nghia *.pyc
